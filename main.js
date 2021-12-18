@@ -22,7 +22,7 @@ function saveData() {
 	let email = document.getElementById("email").value
 	let country = document.getElementById("country").value
 	let subject = document.getElementById("subject").value
-	axios.post('http://localhost:3000/user', {
+	axios.post('https://smart-schoolds.herokuapp.com/users', {
 		fname, lname, email, country, subject
 	})
 		.then(function (response) {
