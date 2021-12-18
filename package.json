@@ -1,0 +1,23 @@
+{
+  "name": "schoolwebsite",
+  "version": "1.0.0",
+  "description": "this is for our young generation students",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.mjs"
+  },
+  "keywords": [
+    "school",
+    "application"
+  ],
+  "author": "nasir saeed",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.2",
+    "nodemon": "^2.0.15"
+  }
+}
